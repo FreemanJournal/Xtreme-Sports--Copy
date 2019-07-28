@@ -54,6 +54,7 @@ body{
 
 .mid{
 	width: 80%;
+	display: block;
 	margin: auto;
 }
 .header_cont{
@@ -1210,6 +1211,8 @@ margin-top: 200px;
 .staff{	
 	padding: 120px 0px 0px 0px;
 	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
 
 }
 .staff:after{
@@ -1258,6 +1261,7 @@ margin-top: 200px;
 	position: relative;
 	display: inline-table;
 	margin: 0px 10px;
+	
 
 }
  .indi_staff_box .img{
@@ -1434,20 +1438,335 @@ margin-top: 200px;
     opacity: 1;   
     width: 43%;
     height: 8%;
-}   
+}
+.staff .mid > hr{
+	width: 100%;
+	border: none;
+	border-bottom: 5px double #DDDDDD;
+	display: inline-block;
+	margin-top: -10px;
+	
+}
+.staff .lr_icon{	
+	bottom: -7px;
+	right: 0px;
+	left: 0px;
+	position: absolute;
+}
+.staff .lr_icon a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #666666;	
+	border: .5px solid #DDDDDD;
+	margin-top: 20px;	
+	text-align: center;
+	transition: .5s;
+	position: relative;
+
+}
+.staff .lr_icon a:hover:after{
+	content: '';
+	height: 0px;
+	width: 0px;
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+	border-bottom: 4px solid transparent;	
+	border-left: 4px solid transparent;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+
+}
+.staff .lr_icon a i{
+	margin-top: 13px;
+
+}
+.staff .lr_icon a:nth-child(2){
+	margin-top: 7px;
+
+}
+.staff .lr_icon a:hover{
+	background-color: #000;
+	border: .5px solid #000;
+	color:#fff;
+
+}
+  
+
+		/*Staff section close here.
+			happy_clients section start here.*/
+
+.happy_clients{
+	padding: 150px 0px 0px 0px; 
+	height: 500px;
+	background-color: #f4f4f4;
+	text-align: center;
+	position: relative;
+}
+.happy_clients .mid{
+	width: 90%;
+}
+.happy_clients .logo hr{
+	width: 30px;
+	border: none;
+	border-bottom: 4px double #000;
+	display: inline-block;
+	vertical-align: 50%;
+}
+
+.happy_clients .mid > h2{
+	color: #000;
+	font-family:Lato-Bold;
+	font-size: 40px;
+	margin: 10px 0px 25px 0px;
+	display: block;	
+}
+.happy_client_big_box{
+	display: inline-flex;
+	justify-content:space-between;
+	margin-top: 20px;
+}			
+.happy_clients_box{
+	border: 1px solid #ccc;
+	height: 180px;
+	width: 48%;
+	display: inline-flex;
+	text-align: left;
+	background-color: #fff;
+	transition: .26s;
+}
+.happy_clients_box img{
+	width: 23%;
+	height: 100%;
+}
+.happy_clients_box .con p{
+	font-size: 15px;
+	font-family: Lato-light;	
+	margin: 20px 0px 10px 20px;
+}
+.happy_clients_box .con .isigna{
+	display: inline-flex;
+	margin: 0px 0px 0px 20px;
+}
+.happy_clients_box .con .isigna i{
+	color: red;
+	font-size: 13px;
+	
+}
+.happy_clients_box .con .isigna .h3_h4{
+	margin: 0px 0px 0px 5px;
+}
+.happy_clients_box .con .isigna h3{
+	font-size: 16px;
+	font-family: Lato-light;
+	font-weight: bold;
+}
+.happy_clients_box .con .isigna h4{
+	font-size: 13px;
+	font-family: Lato-light;
+	color: #a3a3a3;
+	
+
+}
 
 
+.happy_clients_box:hover .con .isigna i,
+.happy_clients_box:hover .con .isigna h4{
+	color: #fff;
 
+}
+.happy_clients_box:hover{
+	background-color: #000;
+	color: #fff;
+}
+.happy_clients .mid > hr{
+	width: 100%;
+	border: none;
+	border-bottom: 5px double #DDDDDD;
+	display: inline-block;
+	margin-top: 100px;
+	
+}
+.happy_clients .lr_icon{	
+	bottom: 56px;
+	right: 0px;
+	left: 0px;
+	position: absolute;
+}
+.happy_clients .lr_icon a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #666666;	
+	border: .5px solid #DDDDDD;
+	margin-top: 20px;	
+	text-align: center;
+	transition: .5s;
+	position: relative;
 
+}
+.happy_clients .lr_icon a:hover:after{
+	content: '';
+	height: 0px;
+	width: 0px;
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+	border-bottom: 4px solid transparent;	
+	border-left: 4px solid transparent;
+	position: absolute;
+	top: 4px;
+	right: 4px;
 
+}
+.happy_clients .lr_icon a i{
+	margin-top: 13px;
 
+}
+.happy_clients .lr_icon a:nth-child(2){
+	margin-top: 7px;
 
+}
+.happy_clients .lr_icon a:hover{
+	background-color: #000;
+	border: .5px solid #000;
+	color:#fff;
 
+}
+.happy_clients:after{
+	content: '';
+	width: 0px;
+	height: 0px;
+    border-top: 0px solid #fff;
+    border-right: 388px solid #fff;
+    border-bottom: 76px solid transparent;
+    border-left: 964px solid #fff;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+} 
+	
 
+		/*happy_clients section close here.
+			Show_reel section start here.*/
+.show_reel{
+	background-image: url(images/m5.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	position: relative;
 
+	
+}
+.show_reel .blur{
+	background-color: rgba(0,0,0,.7);
+	height: 350px;
+}
+.show_reel img{
+	position: absolute;
+	top: 35%;
+	right: 10%;
+	bottom: 0px;
 
+}
 
+		/*Show_reel section close here.
+			Product section start here.*/
+.product{
+	height: 400px;
+	padding: 120px 0px;
+	text-align: center;
+}
+.product .logo hr{
+	width: 30px;
+	border: none;
+	border-bottom: 4px double #000;
+	display: inline-block;
+	vertical-align: 50%;
+}
 
+.product .mid > h2{
+	color: #000;
+	font-family:Lato-Bold;
+	font-size: 40px;
+	margin: 10px 0px 25px 0px;
+	display: block;	
+}
+.product_boxes .box{
+	
+	
+}
+.product_boxes .box .nth1_nth2{	
+	border: 1px solid #ccc;	
+	width: 260px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.product_boxes .box .nth1,
+.product_boxes .box .nth2{
+	width: 100%;
+	height: 100%;	
+	border: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 2;
+	transition: .26s;	
+	
+}			
+.product_boxes .box .nth1 img{
+	width: 99.5%;
+	height: 99.5%;
+	margin-top: 1px;
+
+}
+.product_boxes .box .nth2{	
+	z-index: 1;	
+}
+.product_boxes .box .nth2 img{	
+	width: 90%;
+	height: 95%;
+	margin-top: 1px;
+}
+.product_boxes .box .nth1:hover{
+	opacity: 0;
+	
+}
+.nth1_nth2 .icon{
+	position: absolute;	
+	right: 0px;
+	bottom: -41px;
+	left: 0px;
+	z-index:3;
+	font-size: 0px;	
+	transition: .15s;
+	
+}
+.nth1_nth2:hover .icon{
+	bottom: 15px;
+}
+
+.nth1_nth2 .icon ul li{
+	display:inline-flex;
+}
+.nth1_nth2 .icon ul li a{
+	padding: 12px;
+	background-color: #000;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.nth1_nth2 .icon ul li:first-child a{
+	background-color: #FFC908;
+	
+}
+.nth1_nth2 .icon ul li:hover a{
+	background-color: #E21712;
+
+}
 
 
 
